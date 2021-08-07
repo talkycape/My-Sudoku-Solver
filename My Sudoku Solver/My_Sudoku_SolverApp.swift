@@ -11,7 +11,7 @@ import SwiftUI
 struct My_Sudoku_SolverApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }

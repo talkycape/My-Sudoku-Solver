@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BC3F884926B91EF000A248F8 /* My_Sudoku_SolverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F884826B91EF000A248F8 /* My_Sudoku_SolverApp.swift */; };
-		BC3F884B26B91EF000A248F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F884A26B91EF000A248F8 /* ContentView.swift */; };
+		BC3F884B26B91EF000A248F8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F884A26B91EF000A248F8 /* GameView.swift */; };
 		BC3F884D26B91EF400A248F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3F884C26B91EF400A248F8 /* Assets.xcassets */; };
 		BC3F885026B91EF400A248F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3F884F26B91EF400A248F8 /* Preview Assets.xcassets */; };
+		BC3F885826B9256800A248F8 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F885726B9256800A248F8 /* GameViewModel.swift */; };
+		BC3F885A26B929BC00A248F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F885926B929BC00A248F8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC3F884526B91EF000A248F8 /* My Sudoku Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Sudoku Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3F884826B91EF000A248F8 /* My_Sudoku_SolverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Sudoku_SolverApp.swift; sourceTree = "<group>"; };
-		BC3F884A26B91EF000A248F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC3F884A26B91EF000A248F8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		BC3F884C26B91EF400A248F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3F884F26B91EF400A248F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC3F885126B91EF400A248F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3F885726B9256800A248F8 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		BC3F885926B929BC00A248F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				BC3F884826B91EF000A248F8 /* My_Sudoku_SolverApp.swift */,
-				BC3F884A26B91EF000A248F8 /* ContentView.swift */,
+				BC3F884A26B91EF000A248F8 /* GameView.swift */,
+				BC3F885726B9256800A248F8 /* GameViewModel.swift */,
+				BC3F885926B929BC00A248F8 /* Constants.swift */,
 				BC3F884C26B91EF400A248F8 /* Assets.xcassets */,
 				BC3F885126B91EF400A248F8 /* Info.plist */,
 				BC3F884E26B91EF400A248F8 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3F884B26B91EF000A248F8 /* ContentView.swift in Sources */,
+				BC3F885826B9256800A248F8 /* GameViewModel.swift in Sources */,
+				BC3F884B26B91EF000A248F8 /* GameView.swift in Sources */,
 				BC3F884926B91EF000A248F8 /* My_Sudoku_SolverApp.swift in Sources */,
+				BC3F885A26B929BC00A248F8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
